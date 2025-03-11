@@ -73,29 +73,37 @@
                     const lista = document.getElementById('productos-lista');
                     lista.innerHTML = ""; // Limpiar la lista
 
+                    const productosUnicos = new Set();
+
                     data.forEach(producto => {
-                        const card = document.createElement('div');
-                        card.classList.add('product-card');
+                        const key = `${producto.slug}-${producto.precio}-${producto.peso}`;
 
-                        const img = document.createElement('img');
-                        img.src = producto.imagen;
-                        img.alt = producto.nombre;
+                        if (!productosUnicos.has(key)) {
+                            productosUnicos.add(key);
 
-                        const title = document.createElement('h3');
-                        title.textContent = producto.nombre;
+                            const card = document.createElement('div');
+                            card.classList.add('product-card');
 
-                        const price = document.createElement('p');
-                        price.textContent = `Precio: ${producto.precio} €`;
+                            const img = document.createElement('img');
+                            img.src = producto.imagen;
+                            img.alt = producto.nombre;
 
-                        const weight = document.createElement('p');
-                        weight.textContent = `Peso: ${producto.peso}`;
+                            const title = document.createElement('h3');
+                            title.textContent = producto.nombre;
 
-                        card.appendChild(img);
-                        card.appendChild(title);
-                        card.appendChild(price);
-                        card.appendChild(weight);
+                            const price = document.createElement('p');
+                            price.textContent = `Precio: ${producto.precio} €`;
 
-                        lista.appendChild(card);
+                            const weight = document.createElement('p');
+                            weight.textContent = `Peso: ${producto.peso}Kg/L`;
+
+                            card.appendChild(img);
+                            card.appendChild(title);
+                            card.appendChild(price);
+                            card.appendChild(weight);
+
+                            lista.appendChild(card);
+                        }
                     });
                 })
                 .catch(error => console.error('Error:', error));

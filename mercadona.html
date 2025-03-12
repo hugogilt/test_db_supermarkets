@@ -67,7 +67,7 @@
 
     <script>
         function cargarProductos() {
-            fetch('php/obtener_productos.php')
+            fetch('php/obtener_productos_mercadona.php')
                 .then(response => response.json())
                 .then(data => {
                     const lista = document.getElementById('productos-lista');
@@ -110,7 +110,7 @@
         }
 
         function actualizarProductos() {
-            fetch('php/actualizar_productos.php')
+            fetch('php/actualizar_productos_mercadona.php')
                 .then(response => response.json())
                 .then(data => {
                     alert(data.message);

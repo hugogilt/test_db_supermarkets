@@ -40,6 +40,7 @@ function fetchProductsFromURL($url, &$seenProductIds, &$productCounts) {
             $description = $product['productData']['description'];
             $image = $product['productData']['imageURL'];
 
+            // Obtener precio normal y por kilo
             $price = 0;
             $price_kilo = 0;
             foreach ($product['priceData']['prices'] as $priceItem) {
@@ -53,6 +54,24 @@ function fetchProductsFromURL($url, &$seenProductIds, &$productCounts) {
                 }
             }
 
+            // Comprobar si es una "Oferta Pack"
+            $ofertaPack = false;
+            $unidadesPack = null;
+            $precioUnidadPack = null;
+
+            if (isset($product['offers']) && is_array($product['offers'])) {
+                foreach ($product['offers'] as $offer) {
+                    if (isset($offer['shortDescription']) && $offer['shortDescription'] === "Oferta Pack") {
+                        $ofertaPack = true;
+                        if (isset($offer['sectionUnits']) && isset($offer['amount'])) {
+                            $unidadesPack = $offer['sectionUnits'];
+                            $precioUnidadPack = $offer['amount'];
+                        }
+                        break; // Solo necesitamos encontrar una oferta pack
+                    }
+                }
+            }
+
             $allProducts[] = [
                 'id' => $id,
                 'name' => $name,
@@ -60,7 +79,10 @@ function fetchProductsFromURL($url, &$seenProductIds, &$productCounts) {
                 'price_kilo' => $price_kilo,
                 'slug' => $slug,
                 'description' => $description,
-                'image' => $image
+                'image' => $image,
+                'ofertaPack' => $ofertaPack,
+                'unidadesPack' => $unidadesPack,
+                'precioUnidadPack' => $precioUnidadPack
             ];
         }
 
@@ -113,7 +135,7 @@ function fetchAllProducts() {
 
 // Ejecutar función y guardar resultados
 $products = fetchAllProducts();
-file_put_contents("productos_filtrados_bucle_page_optimizado.json", json_encode($products, JSON_PRETTY_PRINT));
+file_put_contents("productos_filtrados_bucle_page_packs.json", json_encode($products, JSON_PRETTY_PRINT));
 
-echo "Productos guardados en productos_filtrados_bucle_page_optimizado.json\n";
+echo "Productos guardados en productos_filtrados_bucle_page_packs.json\n";
 ?>

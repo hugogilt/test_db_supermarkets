@@ -1,0 +1,48 @@
+Total IDs duplicados: 1008
+Ejemplo de productos duplicados: [
+  {
+    id: 6995,
+    name: 'Cerveza Clásica Lata AMSTEL',
+    price: 0.49,
+    price_kilo: 1.48,
+    slug: 'cerveza-clasica-lata',
+    description: 'Cerveza Clásica Lata 0,33 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7190726.jpg?t=20250304115716'
+  },
+  {
+    id: 4846,
+    name: 'Refresco Cola Lata PEPSI-COLA',
+    price: 0.5,
+    price_kilo: 1.52,
+    slug: 'refresco-cola-lata',
+    description: 'Refresco Cola Lata 0,33 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/303453.jpg?t=20250227085742'
+  },
+  {
+    id: 4910,
+    name: 'Refresco Cola Zero Lata PEPSI-COLA',
+    price: 0.5,
+    price_kilo: 1.52,
+    slug: 'refresco-cola-zero-lata',
+    description: 'Refresco Cola Zero Lata 0,33 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/340315.jpg?t=20250311132753'
+  },
+  {
+    id: 6160,
+    name: 'Alcachofas ',
+    price: 0.42,
+    price_kilo: 2.39,
+    slug: 'alcachofas',
+    description: 'Alcachofas (Granel)',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7104164.jpg?t=20250313080051'
+  },
+  {
+    id: 5625,
+    name: 'Cerveza Lata ALHAMBRA',
+    price: 0.55,
+    price_kilo: 1.67,
+    slug: 'cerveza-lata',
+    description: 'Cerveza Lata 0,33 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7045177.jpg?t=20250227090427'
+  }
+]

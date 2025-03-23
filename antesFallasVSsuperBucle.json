@@ -1,0 +1,240 @@
+Total productos en archivo1: 4779
+Total productos en archivo2: 8958
+Total IDs únicos en archivo1: 4779
+Total IDs únicos en archivo2: 8958
+Productos en archivo1 pero no en archivo2: 38
+Productos en archivo2 pero no en archivo1: 4217
+Ejemplo de productos en archivo1 pero no en archivo2: [
+  {
+    id: 29421,
+    productType: 1,
+    code: '7399272',
+    ean: '5060896621548',
+    productData: {
+      name: 'Bebida Energética Watermelon',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/bebida-energetica-watermelon/7399272',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7399272.jpg?t=20250311125147',
+      description: 'Bebida Energética Watermelon 0,5 L',
+      seo: 'bebida-energetica-watermelon',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 31388,
+    productType: 1,
+    code: '7416399',
+    ean: '5060751213550',
+    productData: {
+      name: 'Bebida Energética Lata Monarch',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/bebida-energetica-lata-monarch/7416399',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7416399.jpg?t=20250311125242',
+      description: 'Bebida Energética Lata Monarch 0,5 L',
+      seo: 'bebida-energetica-lata-monarch',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 7797,
+    productType: 1,
+    code: '7235203',
+    ean: '8410650208794',
+    productData: {
+      name: 'Comida Seca Gatos Junior',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/comida-seca-gatos-junior/7235203',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7235203.jpg?t=20250312092754',
+      description: 'Comida Seca Gatos Junior 400 Gr',
+      seo: 'comida-seca-gatos-junior',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 10,
+      priceUnitType: '',
+      unitPriceUnitType: '1 Kg',
+      minimumUnit: 1,
+      maximumUnit: 20,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 15960,
+    productType: 1,
+    code: '7293694',
+    ean: '5054563058393',
+    productData: {
+      name: 'Pasta Dental sin Flúor',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/pasta-dental-sin-fluor/7293694',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7293694.jpg?t=20250312092758',
+      description: 'Pasta Dental sin Flúor 75 ml',
+      seo: 'pasta-dental-sin-fluor',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '100 ml',
+      minimumUnit: 1,
+      maximumUnit: 20,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 22041,
+    productType: 1,
+    code: '7256279',
+    ean: '3600531293178',
+    productData: {
+      name: 'Paleta Sombras Nude The Blushed Nudes',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/paleta-sombras-nude-the-blushed-nudes/7256279',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7256279.jpg?t=20250227092223',
+      description: 'Paleta Sombras Nude The Blushed Nudes 1 U',
+      seo: 'paleta-sombras-nude-the-blushed-nudes',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 U',
+      minimumUnit: 1,
+      maximumUnit: 5,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  }
+]
+Ejemplo de productos en archivo2 pero no en archivo1: [
+  {
+    id: 8612,
+    name: 'Horchata Original Botellín Pack de 3 CHUFI',
+    price: 2.35,
+    price_kilo: 3.13,
+    slug: 'horchata-original-botellin-pack-de-3',
+    description: 'Horchata Original Botellín Pack de 3 3 x 250 ml',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7239254.jpg?t=20250318080938'
+  },
+  {
+    id: 10037,
+    name: 'Horchata Granizada MONZO',
+    price: 2.79,
+    price_kilo: 2.79,
+    slug: 'horchata-granizada',
+    description: 'Horchata Granizada 1 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7063030.jpg?t=20250318080933'
+  },
+  {
+    id: 11114,
+    name: 'Pera Ercolini ',
+    price: 0.36,
+    price_kilo: 3.6,
+    slug: 'pera-ercolini',
+    description: 'Pera Ercolini',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/16576.jpg?t=20250318080929'
+  },
+  {
+    id: 11121,
+    name: 'Recambio Insecticida Líquido 45 Noches BLOOM',
+    price: 5.1,
+    price_kilo: 5.1,
+    slug: 'recambio-insecticida-liquido-45-noches',
+    description: 'Recambio Insecticida Líquido 45 Noches 1 U',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/415182.jpg?t=20250318080931'
+  },
+  {
+    id: 12093,
+    name: 'Colgador WC Líquido Pino CONSUM',
+    price: 1.89,
+    price_kilo: 0.63,
+    slug: 'colgador-wc-liquido-pino',
+    description: 'Colgador WC Líquido Pino 3 U',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7228252.jpg?t=20250318080936'
+  }
+]

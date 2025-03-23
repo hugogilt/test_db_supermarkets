@@ -1,0 +1,194 @@
+Total productos en archivo1: 5754
+Total productos en archivo2: 4779
+Total IDs únicos en archivo1: 4746
+Total IDs únicos en archivo2: 4779
+Productos en archivo1 pero no en archivo2: 0
+Productos en archivo2 pero no en archivo1: 33
+Ejemplo de productos en archivo1 pero no en archivo2: []
+Ejemplo de productos en archivo2 pero no en archivo1: [
+  {
+    id: 21833,
+    productType: 1,
+    code: '7337335',
+    ean: '8717163476789',
+    productData: {
+      name: 'Crema Nutrición Intensa Piel Seca',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/crema-nutricion-intensa-piel-seca/7337335',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7337335.jpg?t=20250227093208',
+      description: 'Crema Nutrición Intensa Piel Seca 150 ml',
+      seo: 'crema-nutricion-intensa-piel-seca',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '100 ml',
+      minimumUnit: 1,
+      maximumUnit: 20,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 39708,
+    productType: 1,
+    code: '7453053',
+    ean: '8410199026774',
+    productData: {
+      name: 'Patatas Churrería Bolsa',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/patatas-churreria-bolsa/7453053',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7453053.jpg?t=20250313081448',
+      description: 'Patatas Churrería Bolsa 261 Gr',
+      seo: 'patatas-churreria-bolsa',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 10,
+      priceUnitType: '',
+      unitPriceUnitType: '1 Kg',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 35505,
+    productType: 1,
+    code: '7447712',
+    ean: '3600531692124',
+    productData: {
+      name: 'Perfilador de Labios Lifter Liner',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/perfilador-de-labios-lifter-liner/7447712',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7447712.jpg?t=20250227095607',
+      description: 'Perfilador de Labios Lifter Liner 1 U',
+      seo: 'perfilador-de-labios-lifter-liner',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 U',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 35506,
+    productType: 1,
+    code: '7447717',
+    ean: '3600531692117',
+    productData: {
+      name: 'Perfilador de Labios Lifter Liner',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/perfilador-de-labios-lifter-liner/7447717',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7447717.jpg?t=20250227095608',
+      description: 'Perfilador de Labios Lifter Liner 1 U',
+      seo: 'perfilador-de-labios-lifter-liner',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 U',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 33649,
+    productType: 1,
+    code: '7427623',
+    ean: '8414807558220',
+    productData: {
+      name: 'Ensaladilla Rusa',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/ensaladilla-rusa/7427623',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7427623.jpg?t=20241217081318',
+      description: 'Ensaladilla Rusa 250 Gr',
+      seo: 'ensaladilla-rusa',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 10,
+      priceUnitType: '',
+      unitPriceUnitType: '1 Kg',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object] ],
+    offers: [],
+    coupons: []
+  }
+]

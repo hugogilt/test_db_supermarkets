@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consum</title>
+</head>
+<body>
+    <h1>Hola Mundo Consum</h1>
+    <button onclick="startFetching()">Obtener Productos</button>
+</body>
+<script>
+   async function fetchProductsFromURL(url) {
+    let allProducts = [];
+    let seenProductIds = new Set();
+    let offset = 0;
+    const limit = 100; 
+    let hasMore = true;
+
+    while (hasMore) {
+        const response = await fetch(`${url}&limit=${limit}&offset=${offset}`);
+        const data = await response.json();
+
+        if (!data || !Array.isArray(data.products)) break; 
+
+        const newProducts = data.products.filter(product => !seenProductIds.has(product.id));
+        newProducts.forEach(product => seenProductIds.add(product.id));
+
+        allProducts = allProducts.concat(newProducts);
+        offset += limit;
+
+        if (data.products.length < limit) hasMore = false;
+    }
+
+    return allProducts;
+}
+
+async function fetchGeneralProducts() {
+    let allProducts = [];
+    let seenProductIds = new Set();
+    let offset = 0;
+    const limit = 100;
+    const maxProducts = 2900; 
+    let hasMore = true;
+
+    while (hasMore && allProducts.length < maxProducts) {
+        const response = await fetch(`https://tienda.consum.es/api/rest/V1.0/catalog/product?page=1&limit=${limit}&offset=${offset}`);
+        const data = await response.json();
+
+        if (!data || !Array.isArray(data.products)) break;
+
+        const newProducts = data.products.filter(product => !seenProductIds.has(product.id));
+        newProducts.forEach(product => seenProductIds.add(product.id));
+        allProducts = allProducts.concat(newProducts);
+        offset += limit;
+
+        if (allProducts.length >= maxProducts) break;
+
+        if (data.products.length < limit) hasMore = false;
+    }
+
+    return allProducts;
+}
+
+async function fetchAllProducts() {
+    const categoryUrls = [
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=1&showRecommendations=false&categories=99999",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.ownBrand%3Atrue&exclusionFilters=true",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=5&showRecommendations=false&filters=&groups=FOLLETOMARZO25&exclusionFilters=true",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.novelty%3Atrue&exclusionFilters=true"
+    ];
+
+    let allProducts = [];
+    let seenProductIds = new Set();
+
+    for (const url of categoryUrls) {
+        const products = await fetchProductsFromURL(url);
+        products.forEach(product => {
+            if (!seenProductIds.has(product.id)) {
+                seenProductIds.add(product.id);
+                allProducts.push(product);
+            }
+        });
+    }
+
+    const generalProducts = await fetchGeneralProducts();
+    generalProducts.forEach(product => {
+        if (!seenProductIds.has(product.id)) {
+            seenProductIds.add(product.id);
+            allProducts.push(product);
+        }
+    });
+
+    console.log(`Total de productos únicos obtenidos: ${allProducts.length}`);
+
+    // Guardar los productos en un archivo JSON
+    saveJSONToFile(allProducts, "productos.json");
+
+    return allProducts;
+}
+
+// Función para guardar JSON en un archivo descargable
+function saveJSONToFile(data, filename) {
+    const jsonStr = JSON.stringify(data, null, 2);
+    const blob = new Blob([jsonStr], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.click();
+}
+
+// Función para iniciar la descarga al hacer clic en el botón
+function startFetching() {
+    fetchAllProducts();
+}
+
+async function checkDuplicates(file) {
+    const reader = new FileReader();
+    
+    reader.onload = function(event) {
+        const data = JSON.parse(event.target.result);
+        const seenIds = new Set();
+        let duplicates = [];
+
+        data.forEach(product => {
+            if (seenIds.has(product.id)) {
+                duplicates.push(product);
+            } else {
+                seenIds.add(product.id);
+            }
+        });
+
+        if (duplicates.length > 0) {
+            console.log("Productos repetidos encontrados:", duplicates);
+        } else {
+            console.log("No hay productos repetidos.");
+        }
+    };
+
+    reader.readAsText(file);
+}
+
+// Evento para seleccionar archivo y comprobar duplicados
+document.body.innerHTML += `<input type="file" id="jsonFileInput">`;
+document.getElementById("jsonFileInput").addEventListener("change", function(event) {
+    const file = event.target.files[0];
+    if (file) {
+        checkDuplicates(file);
+    }
+});
+
+</script>
+</html>

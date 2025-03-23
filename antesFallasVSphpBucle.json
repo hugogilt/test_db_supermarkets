@@ -1,0 +1,240 @@
+Total productos en archivo1: 4779
+Total productos en archivo2: 5800
+Total IDs únicos en archivo1: 4779
+Total IDs únicos en archivo2: 5800
+Productos en archivo1 pero no en archivo2: 1003
+Productos en archivo2 pero no en archivo1: 2024
+Ejemplo de productos en archivo1 pero no en archivo2: [
+  {
+    id: 32718,
+    productType: 1,
+    code: '7426906',
+    ean: '8423453912836',
+    productData: {
+      name: 'Cerveza Lager Lata',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/cerveza-lager-lata/7426906',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7426906.jpg?t=20250312161304',
+      description: 'Cerveza Lager Lata 0,33 L',
+      seo: 'cerveza-lager-lata',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 99,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 34730,
+    productType: 1,
+    code: '7443729',
+    ean: '8435661601495',
+    productData: {
+      name: 'Cerveza Rubia Lata',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/cerveza-rubia-lata/7443729',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7443729.jpg?t=20250109111650',
+      description: 'Cerveza Rubia Lata 0,33 L',
+      seo: 'cerveza-rubia-lata',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 31273,
+    productType: 3,
+    code: '7415701',
+    ean: '',
+    productData: {
+      name: 'Manzana Joya',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/manzana-joya/7415701',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7415701.jpg?t=20250313081035',
+      description: 'Manzana Joya',
+      seo: 'manzana-joya',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: 'Pieza precio aprox.',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 4,
+      priceUnitType: '',
+      unitPriceUnitType: '1 Kg',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object], [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 34851,
+    productType: 1,
+    code: '7440832',
+    ean: '8410283388610',
+    productData: {
+      name: 'Gaseosa Hierbabuena Lata',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/gaseosa-hierbabuena-lata/7440832',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7440832.jpg?t=20250312092858',
+      description: 'Gaseosa Hierbabuena Lata 0,33 L',
+      seo: 'gaseosa-hierbabuena-lata',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  },
+  {
+    id: 34852,
+    productType: 1,
+    code: '7440837',
+    ean: '8410283388627',
+    productData: {
+      name: 'Gaseosa Manzana Lata',
+      brand: [Object],
+      url: 'https://tienda.consum.es/es/p/gaseosa-manzana-lata/7440837',
+      imageURL: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7440837.jpg?t=20250312092858',
+      description: 'Gaseosa Manzana Lata 0,33 L',
+      seo: 'gaseosa-manzana-lata',
+      attributeGroups: [Array],
+      attributes: [Array],
+      format: '',
+      novelty: false,
+      featured: false,
+      sponsored: false,
+      actions: [],
+      containAllergensIntolernacies: false,
+      availability: '1'
+    },
+    media: [ [Object], [Object] ],
+    priceData: {
+      prices: [Array],
+      taxPercentage: 21,
+      priceUnitType: '',
+      unitPriceUnitType: '1 L',
+      minimumUnit: 1,
+      maximumUnit: 49,
+      intervalUnit: 1
+    },
+    purchaseData: { allowComments: false },
+    categories: [ [Object], [Object] ],
+    offers: [ [Object] ],
+    coupons: []
+  }
+]
+Ejemplo de productos en archivo2 pero no en archivo1: [
+  {
+    id: 8612,
+    name: 'Horchata Original Botellín Pack de 3 CHUFI',
+    price: 2.35,
+    price_kilo: 3.13,
+    slug: 'horchata-original-botellin-pack-de-3',
+    description: 'Horchata Original Botellín Pack de 3 3 x 250 ml',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7239254.jpg?t=20250318080938'
+  },
+  {
+    id: 10037,
+    name: 'Horchata Granizada MONZO',
+    price: 2.79,
+    price_kilo: 2.79,
+    slug: 'horchata-granizada',
+    description: 'Horchata Granizada 1 L',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7063030.jpg?t=20250318080933'
+  },
+  {
+    id: 11114,
+    name: 'Pera Ercolini ',
+    price: 0.36,
+    price_kilo: 3.6,
+    slug: 'pera-ercolini',
+    description: 'Pera Ercolini',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/16576.jpg?t=20250318080929'
+  },
+  {
+    id: 11121,
+    name: 'Recambio Insecticida Líquido 45 Noches BLOOM',
+    price: 5.1,
+    price_kilo: 5.1,
+    slug: 'recambio-insecticida-liquido-45-noches',
+    description: 'Recambio Insecticida Líquido 45 Noches 1 U',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/415182.jpg?t=20250318080931'
+  },
+  {
+    id: 12093,
+    name: 'Colgador WC Líquido Pino CONSUM',
+    price: 1.89,
+    price_kilo: 0.63,
+    slug: 'colgador-wc-liquido-pino',
+    description: 'Colgador WC Líquido Pino 3 U',
+    image: 'https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7228252.jpg?t=20250318080936'
+  }
+]

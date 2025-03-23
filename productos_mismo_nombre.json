@@ -1,0 +1,1788 @@
+[
+    {
+        "name": "Refresco Cola Lata",
+        "ids": [
+            4846,
+            26303,
+            19516
+        ]
+    },
+    {
+        "name": "Refresco Cola Zero Lata",
+        "ids": [
+            4910,
+            26301
+        ]
+    },
+    {
+        "name": "Cerveza Lata",
+        "ids": [
+            5625,
+            14767,
+            4819,
+            4860,
+            4957,
+            5976,
+            5977,
+            6420,
+            7990
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural Botella",
+        "ids": [
+            5250,
+            17597,
+            6414,
+            18134,
+            5486,
+            6944
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural. Botella",
+        "ids": [
+            4859,
+            4743,
+            5885,
+            6156
+        ]
+    },
+    {
+        "name": "Tónica Lata",
+        "ids": [
+            5422,
+            7120,
+            4847,
+            6366
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural de Mineralización Muy débil",
+        "ids": [
+            14651,
+            9275,
+            4759,
+            6741
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural Tapón Rosca",
+        "ids": [
+            6408,
+            5204
+        ]
+    },
+    {
+        "name": "Refresco Naranja Zero Lata",
+        "ids": [
+            5361,
+            32511
+        ]
+    },
+    {
+        "name": "Refresco Limón Zero Lata",
+        "ids": [
+            5408,
+            5792
+        ]
+    },
+    {
+        "name": "Cerveza Tostada Lata",
+        "ids": [
+            7961,
+            7910
+        ]
+    },
+    {
+        "name": "Cerveza Especial Lata",
+        "ids": [
+            8496,
+            22554,
+            5899,
+            6013
+        ]
+    },
+    {
+        "name": "Cerveza 0,0% Tostada Lata",
+        "ids": [
+            21740,
+            39829
+        ]
+    },
+    {
+        "name": "Cerveza Holandesa Lata",
+        "ids": [
+            29037,
+            4880
+        ]
+    },
+    {
+        "name": "Refresco Cola Light Lata",
+        "ids": [
+            4844,
+            6367,
+            4872
+        ]
+    },
+    {
+        "name": "Refresco Limón Lata",
+        "ids": [
+            5791,
+            20371,
+            4843
+        ]
+    },
+    {
+        "name": "Tomate Frito Brik",
+        "ids": [
+            6439,
+            7437
+        ]
+    },
+    {
+        "name": "Cerveza Artesana Botella",
+        "ids": [
+            27684,
+            15440
+        ]
+    },
+    {
+        "name": "Bebida Energética Lata",
+        "ids": [
+            7228,
+            4764,
+            6403,
+            7561,
+            8013
+        ]
+    },
+    {
+        "name": "Leche Desnatada Brik",
+        "ids": [
+            5124,
+            4684,
+            4747
+        ]
+    },
+    {
+        "name": "Leche Semidesnatada Brik",
+        "ids": [
+            5125,
+            4679,
+            4753
+        ]
+    },
+    {
+        "name": "Leche Entera Brik",
+        "ids": [
+            5126,
+            4680,
+            4741
+        ]
+    },
+    {
+        "name": "Refresco Cola Zero Botella",
+        "ids": [
+            27354,
+            15895,
+            5691,
+            5828
+        ]
+    },
+    {
+        "name": "Refresco Cola Botella",
+        "ids": [
+            27355,
+            15894,
+            19925,
+            4717,
+            4839
+        ]
+    },
+    {
+        "name": "Refresco Té Melocotón Botella",
+        "ids": [
+            24873,
+            17016
+        ]
+    },
+    {
+        "name": "Refresco Té Limón Botella",
+        "ids": [
+            24874,
+            16472
+        ]
+    },
+    {
+        "name": "Cerveza Botella Cristal",
+        "ids": [
+            8033,
+            4752,
+            5065,
+            5973
+        ]
+    },
+    {
+        "name": "Fideua Paquete",
+        "ids": [
+            25231,
+            5744
+        ]
+    },
+    {
+        "name": "Tomate Troceado Lata",
+        "ids": [
+            5180,
+            5490,
+            5489
+        ]
+    },
+    {
+        "name": "Crema Nutrición Intensa Piel Seca",
+        "ids": [
+            15801,
+            21833
+        ]
+    },
+    {
+        "name": "Refresco Limón Botella",
+        "ids": [
+            19705,
+            19926,
+            4864
+        ]
+    },
+    {
+        "name": "Refresco Naranja Botella",
+        "ids": [
+            19706,
+            21725,
+            4841,
+            5209
+        ]
+    },
+    {
+        "name": "Caffè Latte Espresso",
+        "ids": [
+            32234,
+            6376
+        ]
+    },
+    {
+        "name": "Patatas Churrería Bolsa",
+        "ids": [
+            39707,
+            39708,
+            31201
+        ]
+    },
+    {
+        "name": "Bebida Energética Light Lata",
+        "ids": [
+            8719,
+            7655
+        ]
+    },
+    {
+        "name": "Galletas de Cacao Rellenas de Crema",
+        "ids": [
+            6196,
+            8405
+        ]
+    },
+    {
+        "name": "Zumo Naranja-Mandarina Concentrado Brik",
+        "ids": [
+            8312,
+            5526
+        ]
+    },
+    {
+        "name": "Preparado Lácteo Omega 3",
+        "ids": [
+            5216,
+            5934
+        ]
+    },
+    {
+        "name": "Sangría Brik",
+        "ids": [
+            9567,
+            9676
+        ]
+    },
+    {
+        "name": "Batido Sabor Vainilla Botella",
+        "ids": [
+            5101,
+            18303
+        ]
+    },
+    {
+        "name": "Horchata de Chufa Botella",
+        "ids": [
+            5102,
+            5613
+        ]
+    },
+    {
+        "name": "Batido de Cacao Botella",
+        "ids": [
+            5104,
+            5572,
+            5074
+        ]
+    },
+    {
+        "name": "Mayonesa Pet",
+        "ids": [
+            35803,
+            18814
+        ]
+    },
+    {
+        "name": "Valencianas 12 Unidades",
+        "ids": [
+            4934,
+            5839
+        ]
+    },
+    {
+        "name": "Cerveza Trigo Alemana Botella",
+        "ids": [
+            5106,
+            5854
+        ]
+    },
+    {
+        "name": "Tónica Botella",
+        "ids": [
+            5269,
+            5773
+        ]
+    },
+    {
+        "name": "Bebida de Almendras Brik",
+        "ids": [
+            7937,
+            7098
+        ]
+    },
+    {
+        "name": "Pan Maxi Burger 4 Unidades",
+        "ids": [
+            5098,
+            5843
+        ]
+    },
+    {
+        "name": "Caldo Casero Cocido Brik",
+        "ids": [
+            6947,
+            6162
+        ]
+    },
+    {
+        "name": "Vino Rosado Aguja Espumoso",
+        "ids": [
+            27241,
+            7568
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural Garrafa",
+        "ids": [
+            6305,
+            18312,
+            5249
+        ]
+    },
+    {
+        "name": "Leche Desnatada Botella",
+        "ids": [
+            32286,
+            23620,
+            4767
+        ]
+    },
+    {
+        "name": "Vino Tinto Joven D.O.Valdepeñas",
+        "ids": [
+            6183,
+            4876
+        ]
+    },
+    {
+        "name": "Mayonesa Tarro",
+        "ids": [
+            13763,
+            30501,
+            18858
+        ]
+    },
+    {
+        "name": "Leche Semidesnatada Botella",
+        "ids": [
+            23820,
+            23554,
+            4766
+        ]
+    },
+    {
+        "name": "Vino Tinto Joven D.O.Utiel-Requena",
+        "ids": [
+            5161,
+            6696
+        ]
+    },
+    {
+        "name": "Film Transparente",
+        "ids": [
+            9480,
+            23552
+        ]
+    },
+    {
+        "name": "Fabada Asturiana Bote",
+        "ids": [
+            4955,
+            28014,
+            9202
+        ]
+    },
+    {
+        "name": "Pan de Leche 8 Unidades",
+        "ids": [
+            16843,
+            5888
+        ]
+    },
+    {
+        "name": "Leche Entera Botella",
+        "ids": [
+            28863,
+            23553,
+            4765
+        ]
+    },
+    {
+        "name": "Margarina Vegetal Tarrina",
+        "ids": [
+            32998,
+            22664,
+            4804
+        ]
+    },
+    {
+        "name": "Nata Líquida Cocinar Brik",
+        "ids": [
+            5335,
+            7528
+        ]
+    },
+    {
+        "name": "Chocolate Líquido a la Taza Brik",
+        "ids": [
+            4826,
+            7846
+        ]
+    },
+    {
+        "name": "Sardinas en Aceite Oliva Lata",
+        "ids": [
+            16546,
+            5579,
+            9322
+        ]
+    },
+    {
+        "name": "Salsa Carbonara Frasco",
+        "ids": [
+            21134,
+            27542
+        ]
+    },
+    {
+        "name": "Jamón Cocido Extra Finas Lonchas",
+        "ids": [
+            8805,
+            19123
+        ]
+    },
+    {
+        "name": "Salsa Napolitana Frasco",
+        "ids": [
+            15947,
+            27414
+        ]
+    },
+    {
+        "name": "Limpiador Cocina Quitagrasas Pistola",
+        "ids": [
+            33451,
+            35991
+        ]
+    },
+    {
+        "name": "Aceitunas Rellenas de Anchoas Pack de 3",
+        "ids": [
+            5708,
+            5532
+        ]
+    },
+    {
+        "name": "Philadelphia Natural Tarrina",
+        "ids": [
+            7425,
+            6153
+        ]
+    },
+    {
+        "name": "Philadelphia Light Tarrina",
+        "ids": [
+            14939,
+            5980
+        ]
+    },
+    {
+        "name": "Limpia Máquinas Lavavajillas",
+        "ids": [
+            4734,
+            26051,
+            11425
+        ]
+    },
+    {
+        "name": "Cerveza Botella Cristal Pack-6",
+        "ids": [
+            7907,
+            5063
+        ]
+    },
+    {
+        "name": "Ensaladilla congelada",
+        "ids": [
+            27476,
+            7541
+        ]
+    },
+    {
+        "name": "Café Molido Natural",
+        "ids": [
+            4853,
+            4924,
+            5627,
+            6018
+        ]
+    },
+    {
+        "name": "Leche Condensada",
+        "ids": [
+            4916,
+            5297
+        ]
+    },
+    {
+        "name": "Gazpacho Original",
+        "ids": [
+            5041,
+            9657
+        ]
+    },
+    {
+        "name": "Suavizante Concentrado Azul",
+        "ids": [
+            5823,
+            9443
+        ]
+    },
+    {
+        "name": "Mejillones en Escabeche 8/12 Piezas",
+        "ids": [
+            9276,
+            5581,
+            4965
+        ]
+    },
+    {
+        "name": "Vino Blanco D.O.Valencia",
+        "ids": [
+            19046,
+            23735,
+            9565
+        ]
+    },
+    {
+        "name": "Atún Claro Aceite Oliva Pack de 3",
+        "ids": [
+            26502,
+            5652,
+            10714
+        ]
+    },
+    {
+        "name": "Abrillantador Lavavajillas",
+        "ids": [
+            5187,
+            31849
+        ]
+    },
+    {
+        "name": "Café Soluble Natural Tarro",
+        "ids": [
+            4920,
+            4919
+        ]
+    },
+    {
+        "name": "Café Descafeinado Soluble",
+        "ids": [
+            4922,
+            4921,
+            4931
+        ]
+    },
+    {
+        "name": "Vodka",
+        "ids": [
+            7903,
+            11434,
+            11477,
+            11581
+        ]
+    },
+    {
+        "name": "Chocolate con Oreo",
+        "ids": [
+            29841,
+            6568
+        ]
+    },
+    {
+        "name": "Cacao Soluble 0% Azúcares Añadidos",
+        "ids": [
+            28046,
+            33531
+        ]
+    },
+    {
+        "name": "Vino Tinto Crianza D.O.Rioja",
+        "ids": [
+            12872,
+            10371,
+            12843,
+            4739,
+            4875,
+            5084,
+            12324,
+            12522
+        ]
+    },
+    {
+        "name": "Cava Brut Nature D.O.Cava",
+        "ids": [
+            12746,
+            13094,
+            5733,
+            5811,
+            6614
+        ]
+    },
+    {
+        "name": "Tortilla de Patata Fresca con Cebolla",
+        "ids": [
+            15804,
+            22985
+        ]
+    },
+    {
+        "name": "Vino Blanco Verdejo D.O.Rueda",
+        "ids": [
+            5632,
+            6354,
+            7364,
+            12400,
+            12428
+        ]
+    },
+    {
+        "name": "After Shave Bálsamo",
+        "ids": [
+            8676,
+            31018
+        ]
+    },
+    {
+        "name": "Vino Rosado D.O.Rioja",
+        "ids": [
+            12734,
+            12521
+        ]
+    },
+    {
+        "name": "Dentífrico Antimanchas",
+        "ids": [
+            34562,
+            5002
+        ]
+    },
+    {
+        "name": "Ron Añejo Dominicano",
+        "ids": [
+            9642,
+            11462
+        ]
+    },
+    {
+        "name": "Champú Hidratante",
+        "ids": [
+            33866,
+            32357
+        ]
+    },
+    {
+        "name": "Café Intenso 20 Cápsulas",
+        "ids": [
+            25060,
+            32296
+        ]
+    },
+    {
+        "name": "Aceite de Oliva Intenso",
+        "ids": [
+            7517,
+            32301,
+            15820
+        ]
+    },
+    {
+        "name": "Vino Tinto Crianza D.O.Valencia",
+        "ids": [
+            23734,
+            5380
+        ]
+    },
+    {
+        "name": "Vino Tinto Roble D.O.Ribera del Duero",
+        "ids": [
+            28036,
+            13523,
+            18512,
+            6079,
+            7715,
+            9599
+        ]
+    },
+    {
+        "name": "Licor Limoncello",
+        "ids": [
+            11551,
+            11524
+        ]
+    },
+    {
+        "name": "Vino Blanco D.O. Utiel Requena",
+        "ids": [
+            24376,
+            5330
+        ]
+    },
+    {
+        "name": "Vino Rosado D.O. Utiel Requena",
+        "ids": [
+            24377,
+            9222
+        ]
+    },
+    {
+        "name": "Detergente Líquido",
+        "ids": [
+            32608,
+            31730
+        ]
+    },
+    {
+        "name": "Detergente Líquido Frescor",
+        "ids": [
+            35913,
+            26199
+        ]
+    },
+    {
+        "name": "Perfilador de Labios Lifter Liner",
+        "ids": [
+            35504,
+            35505,
+            35506
+        ]
+    },
+    {
+        "name": "Aceite de Oliva Virgen Extra",
+        "ids": [
+            9534,
+            31031,
+            14480,
+            31955
+        ]
+    },
+    {
+        "name": "Vermut Blanco",
+        "ids": [
+            15558,
+            9197,
+            9583
+        ]
+    },
+    {
+        "name": "Vermut Rojo",
+        "ids": [
+            15559,
+            9573,
+            5395,
+            11592
+        ]
+    },
+    {
+        "name": "Vino Tinto Crianza D.O.Ribera del Duero",
+        "ids": [
+            22451,
+            12841,
+            5466
+        ]
+    },
+    {
+        "name": "Bebida Espirituosa",
+        "ids": [
+            9569,
+            11438
+        ]
+    },
+    {
+        "name": "Enjuague Bucal Mentol",
+        "ids": [
+            10252,
+            5298
+        ]
+    },
+    {
+        "name": "Enjuague Bucal Total Care",
+        "ids": [
+            26103,
+            6026
+        ]
+    },
+    {
+        "name": "Café Grano Natural",
+        "ids": [
+            27317,
+            30454,
+            5270
+        ]
+    },
+    {
+        "name": "Whisky Scotch",
+        "ids": [
+            4868,
+            11445,
+            9638,
+            10876,
+            6561,
+            9571,
+            10290,
+            11666
+        ]
+    },
+    {
+        "name": "Lavavajillas en Gel Todo en 1",
+        "ids": [
+            20994,
+            26121
+        ]
+    },
+    {
+        "name": "Licor de Ponche",
+        "ids": [
+            11558,
+            11512
+        ]
+    },
+    {
+        "name": "Ron Blanco",
+        "ids": [
+            11573,
+            10446
+        ]
+    },
+    {
+        "name": "Longaniza de Payés",
+        "ids": [
+            13402,
+            11048,
+            11179
+        ]
+    },
+    {
+        "name": "Brandy Reserva",
+        "ids": [
+            11439,
+            11450
+        ]
+    },
+    {
+        "name": "Ginebra",
+        "ids": [
+            13871,
+            4737,
+            4865,
+            6347,
+            9578,
+            10585,
+            11481,
+            11646
+        ]
+    },
+    {
+        "name": "Café Soluble Natural",
+        "ids": [
+            5984,
+            5983
+        ]
+    },
+    {
+        "name": "Mejillones en Escabeche 13/18 Piezas",
+        "ids": [
+            5582,
+            5087
+        ]
+    },
+    {
+        "name": "Macarrones Paquete",
+        "ids": [
+            5742,
+            8504
+        ]
+    },
+    {
+        "name": "Spaghetti Paquete",
+        "ids": [
+            5743,
+            8529
+        ]
+    },
+    {
+        "name": "Aluminio",
+        "ids": [
+            5819,
+            5818
+        ]
+    },
+    {
+        "name": "Melocotón en Almíbar Lata",
+        "ids": [
+            5901,
+            5900
+        ]
+    },
+    {
+        "name": "Queso Fundido Porciones",
+        "ids": [
+            6380,
+            4790
+        ]
+    },
+    {
+        "name": "Bebida de Naranja Sin Azúcares Añadidos",
+        "ids": [
+            7312,
+            12444
+        ]
+    },
+    {
+        "name": "Mejillones en Escabeche Pack de 3",
+        "ids": [
+            9246,
+            4727
+        ]
+    },
+    {
+        "name": "Bebida de Avena Brik",
+        "ids": [
+            17581,
+            6856,
+            7501
+        ]
+    },
+    {
+        "name": "Detergente Polvo",
+        "ids": [
+            19993,
+            19514
+        ]
+    },
+    {
+        "name": "Lejía Lavadora Densa",
+        "ids": [
+            21769,
+            21771
+        ]
+    },
+    {
+        "name": "Tortitas de Arroz Integral Paquete",
+        "ids": [
+            25940,
+            5093
+        ]
+    },
+    {
+        "name": "Detergente Líquido Prendas Delicadas",
+        "ids": [
+            27214,
+            4980
+        ]
+    },
+    {
+        "name": "Papel de Horno",
+        "ids": [
+            30373,
+            10648
+        ]
+    },
+    {
+        "name": "Pizza Barbacoa",
+        "ids": [
+            32863,
+            9849
+        ]
+    },
+    {
+        "name": "Ensaladilla Rusa",
+        "ids": [
+            33648,
+            33649
+        ]
+    },
+    {
+        "name": "Ensalada Cangrejo",
+        "ids": [
+            33650,
+            33652
+        ]
+    },
+    {
+        "name": "Arroz con Leche Pack de 4 Unidades",
+        "ids": [
+            6869,
+            9958
+        ]
+    },
+    {
+        "name": "Cacao Instantáneo",
+        "ids": [
+            12186,
+            13564,
+            4917
+        ]
+    },
+    {
+        "name": "Espuma Extrafuerte",
+        "ids": [
+            29061,
+            28504
+        ]
+    },
+    {
+        "name": "Gel Íntimo",
+        "ids": [
+            29607,
+            6745
+        ]
+    },
+    {
+        "name": "Jamón Gran Reserva Curación 15 Meses",
+        "ids": [
+            35407,
+            35408
+        ]
+    },
+    {
+        "name": "Estropajos Acero Inox",
+        "ids": [
+            7310,
+            8687
+        ]
+    },
+    {
+        "name": "Chocolate Crujiente",
+        "ids": [
+            8334,
+            4946
+        ]
+    },
+    {
+        "name": "Aceite de Oliva Virgen Botella",
+        "ids": [
+            11035,
+            11034,
+            13342
+        ]
+    },
+    {
+        "name": "Aceite de Semillas Botella",
+        "ids": [
+            16134,
+            15978,
+            8287
+        ]
+    },
+    {
+        "name": "Tomate Entero Lata",
+        "ids": [
+            17365,
+            17366
+        ]
+    },
+    {
+        "name": "Queso sin Lactosa Lonchas",
+        "ids": [
+            20056,
+            8845
+        ]
+    },
+    {
+        "name": "Toallitas Infantiles Cremosas",
+        "ids": [
+            20090,
+            20732
+        ]
+    },
+    {
+        "name": "Zanahoria Rallada Frasco",
+        "ids": [
+            20529,
+            11262
+        ]
+    },
+    {
+        "name": "Yogur Sabor Macedonia Pack de 4 Unidades",
+        "ids": [
+            23856,
+            8259
+        ]
+    },
+    {
+        "name": "Gazpacho Natural Tradicional",
+        "ids": [
+            27338,
+            27337
+        ]
+    },
+    {
+        "name": "Aceite de Oliva Virgen Extra Cristal",
+        "ids": [
+            31853,
+            11036
+        ]
+    },
+    {
+        "name": "Quitamanchas Ropa Color",
+        "ids": [
+            35528,
+            35718
+        ]
+    },
+    {
+        "name": "Leche Calcio Entera Brik",
+        "ids": [
+            5644,
+            4845
+        ]
+    },
+    {
+        "name": "Aceitunas Manzanilla con Hueso en Frasco",
+        "ids": [
+            5654,
+            8295
+        ]
+    },
+    {
+        "name": "Bebida de Soja sin Azúcares Añadidos Brik",
+        "ids": [
+            6248,
+            17580
+        ]
+    },
+    {
+        "name": "Pizza Atún y Bacón",
+        "ids": [
+            6386,
+            10018
+        ]
+    },
+    {
+        "name": "Agua Mineral con Gas Botella",
+        "ids": [
+            6715,
+            6716,
+            9315
+        ]
+    },
+    {
+        "name": "Zumo Manzana, Naranja y Zanahoria ACE",
+        "ids": [
+            20880,
+            20879
+        ]
+    },
+    {
+        "name": "Yogur Sabor Coco Pack de 4 Unidades",
+        "ids": [
+            23857,
+            10569
+        ]
+    },
+    {
+        "name": "Bombones Surtidos sin Gluten",
+        "ids": [
+            25244,
+            25070
+        ]
+    },
+    {
+        "name": "Yogur Líquido con Fresa-Plátano",
+        "ids": [
+            29702,
+            29543
+        ]
+    },
+    {
+        "name": "Salsa Ligera Tarro",
+        "ids": [
+            30613,
+            18715
+        ]
+    },
+    {
+        "name": "Aceite de Oliva Suave",
+        "ids": [
+            32302,
+            15691
+        ]
+    },
+    {
+        "name": "Cacao Soluble",
+        "ids": [
+            5917,
+            5916
+        ]
+    },
+    {
+        "name": "Higiénico Doble Capa",
+        "ids": [
+            6672,
+            6804
+        ]
+    },
+    {
+        "name": "Arroz Bomba Paquete",
+        "ids": [
+            9496,
+            10204
+        ]
+    },
+    {
+        "name": "Agua Destilada Con Tapón de Seguridad",
+        "ids": [
+            18124,
+            18200
+        ]
+    },
+    {
+        "name": "Quitamanchas Ropa Blanca",
+        "ids": [
+            35527,
+            35681
+        ]
+    },
+    {
+        "name": "Leche Fresca Entera Botella",
+        "ids": [
+            35716,
+            5214
+        ]
+    },
+    {
+        "name": "Agua Micelar",
+        "ids": [
+            39474,
+            7430
+        ]
+    },
+    {
+        "name": "Agua Mineral Natural Tapón Sport",
+        "ids": [
+            5771,
+            5248
+        ]
+    },
+    {
+        "name": "Torta de Aceite",
+        "ids": [
+            12011,
+            9766
+        ]
+    },
+    {
+        "name": "Higiénico Húmedo Compacto",
+        "ids": [
+            23224,
+            23184
+        ]
+    },
+    {
+        "name": "Yogur Sabor Limón Pack de 4 Unidades",
+        "ids": [
+            23858,
+            4769
+        ]
+    },
+    {
+        "name": "Café Soluble Descafeinado",
+        "ids": [
+            5985,
+            5986
+        ]
+    },
+    {
+        "name": "Zumo Naranja-Mandarina Concentrado Pack de 6",
+        "ids": [
+            11920,
+            11923
+        ]
+    },
+    {
+        "name": "Toallitas Infantiles Aloe",
+        "ids": [
+            28011,
+            21165
+        ]
+    },
+    {
+        "name": "Canela en Rama",
+        "ids": [
+            39333,
+            11933
+        ]
+    },
+    {
+        "name": "Tomate Triturado Lata",
+        "ids": [
+            5497,
+            5498
+        ]
+    },
+    {
+        "name": "Tomate Frito Frasco",
+        "ids": [
+            5499,
+            5181
+        ]
+    },
+    {
+        "name": "Gaseosa Botella",
+        "ids": [
+            5513,
+            5514,
+            4688
+        ]
+    },
+    {
+        "name": "Alubia Blanca Cocida Frasco",
+        "ids": [
+            5583,
+            5586,
+            5568
+        ]
+    },
+    {
+        "name": "Lenteja Pardina Cocida Frasco",
+        "ids": [
+            5584,
+            5587
+        ]
+    },
+    {
+        "name": "Garbanzo Cocido Frasco",
+        "ids": [
+            5585,
+            5567
+        ]
+    },
+    {
+        "name": "Café Molido Mezcla",
+        "ids": [
+            5628,
+            6017
+        ]
+    },
+    {
+        "name": "Queso Tierno Mezcla Lonchas",
+        "ids": [
+            6381,
+            8813
+        ]
+    },
+    {
+        "name": "Queso Mezcla Semi Lonchas",
+        "ids": [
+            6382,
+            8274
+        ]
+    },
+    {
+        "name": "Bacón en Lonchas",
+        "ids": [
+            6486,
+            4782
+        ]
+    },
+    {
+        "name": "Tomate Frito Brik Pack de 3",
+        "ids": [
+            6717,
+            15650,
+            6440
+        ]
+    },
+    {
+        "name": "Zumo Exprimido Naranja Sin pulpa - Brik",
+        "ids": [
+            7317,
+            5795
+        ]
+    },
+    {
+        "name": "Higiénico Doble Capa Compacto",
+        "ids": [
+            7463,
+            7464
+        ]
+    },
+    {
+        "name": "Sándwich de Nata Pack de 6 Unidades",
+        "ids": [
+            8282,
+            9090
+        ]
+    },
+    {
+        "name": "Magro de Cerdo Lata",
+        "ids": [
+            9877,
+            7545
+        ]
+    },
+    {
+        "name": "Aceite Oliva Virgen Extra Botella",
+        "ids": [
+            11369,
+            8258
+        ]
+    },
+    {
+        "name": "Aceite de Girasol Botella",
+        "ids": [
+            15627,
+            15767
+        ]
+    },
+    {
+        "name": "Refresco Naranja Lata",
+        "ids": [
+            21488,
+            4840
+        ]
+    },
+    {
+        "name": "Lejía Multiusos",
+        "ids": [
+            21770,
+            21772,
+            5012
+        ]
+    },
+    {
+        "name": "Lavavajillas Concentrado Ultra",
+        "ids": [
+            30503,
+            33549
+        ]
+    },
+    {
+        "name": "Cebolla Seca Malla",
+        "ids": [
+            4713,
+            4749
+        ]
+    },
+    {
+        "name": "Vino Blanco Aguja",
+        "ids": [
+            4831,
+            12451
+        ]
+    },
+    {
+        "name": "Vino Tinto de Mesa Brik",
+        "ids": [
+            4833,
+            5394,
+            8497
+        ]
+    },
+    {
+        "name": "Cuarto Trasero de Pollo",
+        "ids": [
+            4852,
+            8550
+        ]
+    },
+    {
+        "name": "Vino Blanco de Mesa Brik",
+        "ids": [
+            4883,
+            5392,
+            9664
+        ]
+    },
+    {
+        "name": "Vino Tinto Reserva D.O.Utiel-Requena",
+        "ids": [
+            4892,
+            5328
+        ]
+    },
+    {
+        "name": "Bombones Caja Roja",
+        "ids": [
+            4915,
+            4962
+        ]
+    },
+    {
+        "name": "Tinte Nº5 Castaño Claro",
+        "ids": [
+            5032,
+            5470,
+            6502
+        ]
+    },
+    {
+        "name": "Tinte Nº6 Rubio Oscuro",
+        "ids": [
+            5033,
+            5467,
+            6501
+        ]
+    },
+    {
+        "name": "Tinte Nº8 Rubio Claro",
+        "ids": [
+            5035,
+            6500
+        ]
+    },
+    {
+        "name": "Laca Cabello Normal",
+        "ids": [
+            5128,
+            8543
+        ]
+    },
+    {
+        "name": "Cerveza sin Alcohol Lata",
+        "ids": [
+            5224,
+            5975
+        ]
+    },
+    {
+        "name": "Vino Blanco D.O.Alicante",
+        "ids": [
+            5275,
+            12624
+        ]
+    },
+    {
+        "name": "Vino Rosado de Mesa Brik",
+        "ids": [
+            5393,
+            9568,
+            12640
+        ]
+    },
+    {
+        "name": "Piña en su Jugo",
+        "ids": [
+            5419,
+            5789
+        ]
+    },
+    {
+        "name": "Vino Tinto Garrafa",
+        "ids": [
+            5423,
+            9584,
+            12425
+        ]
+    },
+    {
+        "name": "Bebida de Soja Brik",
+        "ids": [
+            5432,
+            6242
+        ]
+    },
+    {
+        "name": "Bebida Isotónica Naranja Botella",
+        "ids": [
+            5829,
+            6251
+        ]
+    },
+    {
+        "name": "Bebida Isotónica Limón Botella",
+        "ids": [
+            5830,
+            6250
+        ]
+    },
+    {
+        "name": "Caramelos Cítricos Vita C sin Azúcar",
+        "ids": [
+            5850,
+            8279
+        ]
+    },
+    {
+        "name": "Vino Tinto Crianza D.O.Valdepeñas",
+        "ids": [
+            5988,
+            6004
+        ]
+    },
+    {
+        "name": "Chocolate con Leche Extrafino",
+        "ids": [
+            6369,
+            8054
+        ]
+    },
+    {
+        "name": "Tinte Nº1 Negro",
+        "ids": [
+            6505,
+            10288,
+            10294
+        ]
+    },
+    {
+        "name": "Vino Rosado Lambrusco",
+        "ids": [
+            6959,
+            7689
+        ]
+    },
+    {
+        "name": "Salfumant",
+        "ids": [
+            7052,
+            10380
+        ]
+    },
+    {
+        "name": "Patatas Fritas Lisas Bolsa",
+        "ids": [
+            7896,
+            7897
+        ]
+    },
+    {
+        "name": "Vino Tinto de Mesa Botella",
+        "ids": [
+            8154,
+            12403
+        ]
+    },
+    {
+        "name": "Queso Havarti Light Lonchas",
+        "ids": [
+            8977,
+            10093
+        ]
+    },
+    {
+        "name": "Pimentón Dulce Lata",
+        "ids": [
+            9192,
+            9196
+        ]
+    },
+    {
+        "name": "Anís Seco",
+        "ids": [
+            9212,
+            11487
+        ]
+    },
+    {
+        "name": "Tinto de Verano Limón 0,0%Azúcar 0,0%Alcohol",
+        "ids": [
+            9312,
+            9674
+        ]
+    },
+    {
+        "name": "Vino Blanco D.O.Rioja",
+        "ids": [
+            9329,
+            9627
+        ]
+    },
+    {
+        "name": "Agua Mineral con Gas Botella Pet",
+        "ids": [
+            9386,
+            9941
+        ]
+    },
+    {
+        "name": "Mayonesa Bocabajo",
+        "ids": [
+            10025,
+            10044
+        ]
+    },
+    {
+        "name": "Licor Hierbas",
+        "ids": [
+            11230,
+            11696
+        ]
+    },
+    {
+        "name": "Anís Dulce",
+        "ids": [
+            11492,
+            11544,
+            11686
+        ]
+    },
+    {
+        "name": "Vino Rosado Aguja",
+        "ids": [
+            12331,
+            12452
+        ]
+    }
+]

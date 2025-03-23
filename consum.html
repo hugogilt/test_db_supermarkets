@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consum</title>
+</head>
+<body>
+    Hola Mundo Consum
+</body>
+<script>
+   async function fetchProductsFromURL(url) {
+    let allProducts = [];
+    let seenProductIds = new Set();
+    let offset = 0;
+    const limit = 100; 
+    let hasMore = true;
+
+    while (hasMore) {
+        const response = await fetch(`${url}&limit=${limit}&offset=${offset}`);
+        const data = await response.json();
+
+        console.log("Respuesta de la API:", data); // <-- Ver qué estructura tiene
+
+        if (!data || !Array.isArray(data.products)) break; // Asegurar que data.products es un array
+
+        const newProducts = data.products.filter(product => !seenProductIds.has(product.id));
+
+        if (newProducts.length === 0) break; 
+
+        newProducts.forEach(product => seenProductIds.add(product.id));
+
+        allProducts = allProducts.concat(newProducts);
+        offset += limit;
+
+        if (data.products.length < limit) hasMore = false;
+    }
+
+    return allProducts;
+}
+
+async function fetchAllProducts() {
+    const urls = [
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=1&showRecommendations=false&categories=99999",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.ownBrand%3Atrue&exclusionFilters=true",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=5&showRecommendations=false&filters=&groups=FOLLETOMARZO25&exclusionFilters=true",
+        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.novelty%3Atrue&exclusionFilters=true"
+    ];
+
+    let allProducts = [];
+
+    for (const url of urls) {
+        const products = await fetchProductsFromURL(url);
+        allProducts = allProducts.concat(products);
+    }
+
+    console.log(`Total de productos únicos obtenidos: ${allProducts.length}`);
+    return allProducts;
+}
+
+// Ejecutar la función corregida
+fetchAllProducts();
+
+
+</script>
+</html>

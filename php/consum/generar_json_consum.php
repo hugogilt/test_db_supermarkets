@@ -74,12 +74,12 @@ function fetchProductsFromURL($url, &$seenProductIds, &$productCounts) {
 
             $allProducts[] = [
                 'id' => $id,
-                'name' => $name,
-                'price' => $price,
-                'price_kilo' => $price_kilo,
+                'nombre' => $name,
+                'precio' => $price,
+                'precio_kilo' => $price_kilo,
                 'slug' => $slug,
-                'description' => $description,
-                'image' => $image,
+                'descripcion' => $description,
+                'imagen' => $image,
                 'ofertaPack' => $ofertaPack,
                 'unidadesPack' => $unidadesPack,
                 'precioUnidadPack' => $precioUnidadPack
@@ -135,7 +135,7 @@ function fetchAllProducts() {
 
 // Ejecutar función y guardar resultados
 $products = fetchAllProducts();
-file_put_contents("productos_filtrados_bucle_page_packs.json", json_encode($products, JSON_PRETTY_PRINT));
+file_put_contents("productos_consum.json", json_encode($products, JSON_PRETTY_PRINT));
 
-echo "Productos guardados en productos_filtrados_bucle_page_packs.json\n";
+echo "Productos guardados en productos_consum.json\n";
 ?>

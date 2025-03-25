@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "natural": "^8.0.1",
+    "string-similarity": "^4.0.4"
+  }
+}

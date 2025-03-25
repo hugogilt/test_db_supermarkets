@@ -67,14 +67,14 @@
 
     <script>
         function cargarProductos() {
-            fetch('php/obtener_productos_mercadona.php')
+            fetch('php/mercadona/obtener_productos_mercadona.php')
                 .then(response => response.json())
                 .then(data => {
                     const lista = document.getElementById('productos-lista');
                     lista.innerHTML = ""; // Limpiar la lista
 
                     const productosUnicos = new Set();
-
+                    console.log(data)
                     data.forEach(producto => {
                         const key = `${producto.slug}-${producto.precio}-${producto.peso}`;
 
@@ -110,7 +110,7 @@
         }
 
         function actualizarProductos() {
-            fetch('php/actualizar_productos_mercadona.php')
+            fetch('php/mercadona/actualizar_productos_mercadona.php')
                 .then(response => response.json())
                 .then(data => {
                     alert(data.message);

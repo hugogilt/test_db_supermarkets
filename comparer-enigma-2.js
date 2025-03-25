@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 // Cargar los archivos JSON
-const productos1 = JSON.parse(fs.readFileSync('productos_php-v2.JSON', 'utf8'));
-const productos2 = JSON.parse(fs.readFileSync('productos_filtrados_bucle_page.json', 'utf8'));
+const productos1 = JSON.parse(fs.readFileSync('productos_filtrados_bucle_page_packs.json', 'utf8'));
+const productos2 = JSON.parse(fs.readFileSync('productos_filtrados_bucle_page_packs-25-3.json', 'utf8'));
 
 // Contar productos en cada archivo
 console.log(`Total productos en archivo1: ${productos1.length}`);

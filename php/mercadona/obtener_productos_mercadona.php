@@ -3,7 +3,7 @@ session_start();
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-include '../config/conexion.php';
+include '../../config/conexion.php';
 
 header('Content-Type: application/json');
 

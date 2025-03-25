@@ -1,66 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consum</title>
+    <title>Productos de Mercadona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .product-card {
+            width: 180px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background: white;
+        }
+        .product-card img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            font-size: 16px;
+            margin: 10px 0 5px;
+        }
+        .product-card p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        button {
+            padding: 10px 15px;
+            margin-top: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
 </head>
 <body>
-    Hola Mundo Consum
+    <div class="container">
+        <h1>Lista de Productos de Consum</h1>
+        <button onclick="actualizarProductos()">Actualizar Productos</button>
+        <div id="productos-lista" class="product-list"></div>
+    </div>
+
+    <script>
+        function cargarProductos() {
+            fetch('php/consum/obtener_productos_consum.php')
+                .then(response => response.json())
+                .then(data => {
+                    const lista = document.getElementById('productos-lista');
+                    lista.innerHTML = ""; // Limpiar la lista
+
+                    const productosUnicos = new Set();
+
+                    data.forEach(producto => {
+                        const key = `${producto.slug}-${producto.precio}-${producto.peso}`;
+
+                        if (!productosUnicos.has(key)) {
+                            productosUnicos.add(key);
+
+                            const card = document.createElement('div');
+                            card.classList.add('product-card');
+
+                            const img = document.createElement('img');
+                            img.src = producto.imagen;
+                            img.alt = producto.nombre;
+
+                            const title = document.createElement('h3');
+                            title.textContent = producto.nombre;
+
+                            const price = document.createElement('p');
+                            price.textContent = `Precio: ${producto.precio} €`;
+
+                            const weight = document.createElement('p');
+                            weight.textContent = `Peso: ${producto.peso}Kg/L`;
+
+                            card.appendChild(img);
+                            card.appendChild(title);
+                            card.appendChild(price);
+                            card.appendChild(weight);
+
+                            lista.appendChild(card);
+                        }
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        function actualizarProductos() {
+            fetch('php/consum/generar_json_consum.php')
+                .then(response => response.json())
+                .then(data => {
+                    alert(data.message);
+                    cargarProductos(); // Recargar la lista de productos después de actualizar
+                })
+                .catch(error => console.error('Error:', error));
+        }
+
+        // Cargar los productos cuando la página se inicie
+        cargarProductos();
+    </script>
 </body>
-<script>
-   async function fetchProductsFromURL(url) {
-    let allProducts = [];
-    let seenProductIds = new Set();
-    let offset = 0;
-    const limit = 100; 
-    let hasMore = true;
-
-    while (hasMore) {
-        const response = await fetch(`${url}&limit=${limit}&offset=${offset}`);
-        const data = await response.json();
-
-        console.log("Respuesta de la API:", data); // <-- Ver qué estructura tiene
-
-        if (!data || !Array.isArray(data.products)) break; // Asegurar que data.products es un array
-
-        const newProducts = data.products.filter(product => !seenProductIds.has(product.id));
-
-        if (newProducts.length === 0) break; 
-
-        newProducts.forEach(product => seenProductIds.add(product.id));
-
-        allProducts = allProducts.concat(newProducts);
-        offset += limit;
-
-        if (data.products.length < limit) hasMore = false;
-    }
-
-    return allProducts;
-}
-
-async function fetchAllProducts() {
-    const urls = [
-        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=1&showRecommendations=false&categories=99999",
-        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.ownBrand%3Atrue&exclusionFilters=true",
-        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=5&showRecommendations=false&filters=&groups=FOLLETOMARZO25&exclusionFilters=true",
-        "https://tienda.consum.es/api/rest/V1.0/catalog/product?orderById=12&showRecommendations=false&filters=filter.novelty%3Atrue&exclusionFilters=true"
-    ];
-
-    let allProducts = [];
-
-    for (const url of urls) {
-        const products = await fetchProductsFromURL(url);
-        allProducts = allProducts.concat(products);
-    }
-
-    console.log(`Total de productos únicos obtenidos: ${allProducts.length}`);
-    return allProducts;
-}
-
-// Ejecutar la función corregida
-fetchAllProducts();
-
-
-</script>
 </html>

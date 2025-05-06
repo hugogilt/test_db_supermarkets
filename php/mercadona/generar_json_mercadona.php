@@ -30,11 +30,19 @@ foreach ($categoriesData['results'] as $category) {
             foreach ($subcategoryData['categories'] as $subsubcategory) {
                 if (isset($subsubcategory['products'])) {
                     foreach ($subsubcategory['products'] as $product) {
+                        // Obtener peso: unit_size o, si no existe, drained_weight
+                        $peso = null;
+                        if (isset($product['price_instructions']['unit_size']) && $product['price_instructions']['unit_size'] !== null) {
+                            $peso = $product['price_instructions']['unit_size'];
+                        } elseif (isset($product['price_instructions']['drained_weight']) && $product['price_instructions']['drained_weight'] !== null) {
+                            $peso = $product['price_instructions']['drained_weight'];
+                        }
+
                         $productos[] = [
                             'nombre' => $product['display_name'],
                             'precio' => $product['price_instructions']['unit_price'],
                             'slug' => $product['slug'],
-                            'peso' => $product['price_instructions']['unit_size'],
+                            'peso' => $peso,
                             'imagen' => $product['thumbnail']
                         ];
                     }
@@ -45,7 +53,7 @@ foreach ($categoriesData['results'] as $category) {
 }
 
 // Guardar los datos en un archivo JSON
-$filePath = 'productos_mercadona.json';
+$filePath = 'productos_mercadona-7-5.json';
 file_put_contents($filePath, json_encode($productos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
 echo json_encode(['success' => true, 'message' => 'Productos guardados en productos_mercadona.json']);

@@ -43,9 +43,18 @@ try {
                             $nombre = $product['display_name'];
                             $precio = $product['price_instructions']['unit_price'];
                             $slug = $product['slug'];
-                            $peso = $product['price_instructions']['unit_size'];
+                            
+                            // Obtener peso: unit_size o, si no existe, drained_weight
+                            $peso = null;
+                            if (isset($product['price_instructions']['unit_size']) && $product['price_instructions']['unit_size'] !== null) {
+                                $peso = $product['price_instructions']['unit_size'];
+                            } elseif (isset($product['price_instructions']['drained_weight']) && $product['price_instructions']['drained_weight'] !== null) {
+                                $peso = $product['price_instructions']['drained_weight'];
+                            }
+                            
                             $imagen = $product['thumbnail'];
 
+                            // Vincular parámetros a la consulta y ejecutar la inserción
                             $stmt->bindParam(':nombre', $nombre);
                             $stmt->bindParam(':precio', $precio);
                             $stmt->bindParam(':slug', $slug);
